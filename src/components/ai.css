@@ -1,0 +1,8 @@
+.home-banner {
+  background-image: url("../assets/images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
