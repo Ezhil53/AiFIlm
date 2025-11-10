@@ -1,8 +1,21 @@
-.home-banner {
-  background-image: url("../assets/images/banner.jpg");
+/* .home-banner {
+  background-image: url("https://i.pinimg.com/736x/be/79/7a/be797a1548ac188d29681d85ed89801b.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: fill;
   background-attachment: fixed;
+  height: 100%;
+} */
+
+
+#lights {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+
+canvas {
+  width: 100%;
   height: 100%;
 }

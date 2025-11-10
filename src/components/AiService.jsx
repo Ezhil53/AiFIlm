@@ -49,8 +49,8 @@ export default function AiService() {
     <section className="relative bg-linear-to-b from-black via-gray-900 to-black py-24  overflow-hidden">
       <div className='max-w-6xl mx-auto'>
         {/* Decorative Elements */}
-        <div className="absolute top-0 left-1/4 w-96 h-96 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-5" />
-        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-5" />
+        {/* <div className="absolute top-0 left-1/4 w-96 h-96 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-100" />
+        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-100" /> */}
 
         {/* Grid Pattern */}
         <div className="absolute inset-0 opacity-5" style={{
