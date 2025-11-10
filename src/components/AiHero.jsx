@@ -1,6 +1,7 @@
 import React from "react";
 import { Sparkles } from "lucide-react";
 import Hyperspeed from '../ui/Hyperspeed';
+import Hero from '../assets/images/hero.jpg'
 
 const Ai = () => {
   return (
@@ -46,7 +47,7 @@ const Ai = () => {
             }
           }}
         /> */}
-        <img src="https://i.pinimg.com/736x/be/79/7a/be797a1548ac188d29681d85ed89801b.jpg" alt=""
+        <img src={Hero} alt=""
           className="absolute inset-0 w-full h-full"
            />
 
