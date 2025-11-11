@@ -3,7 +3,7 @@ import Logo from '../assets/images/vishnu_ads_logo.png'
 const AiNavbar = () => {
   return (
     <>
-      <div className='w-full bg-transparent backdrop-blur-lg z-50 fixed top-0 left-0 border-b'>
+      <div className='w-full bg-transparent backdrop-blur-lg z-50 fixed top-0 left-0 border-b border-white/40'>
         <div className='flex items-center justify-between mx-auto max-w-6xl py-3 md:px-10 px-5'>
           <img alt='Logo'
             src={Logo}
