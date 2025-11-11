@@ -1,5 +1,5 @@
 import React from "react";
-import { Sparkles } from "lucide-react";
+import { Sparkles, ArrowRight } from "lucide-react";
 import Hyperspeed from '../ui/Hyperspeed';
 import Hero from '../assets/images/hero.jpg'
 
@@ -41,8 +41,8 @@ const Ai = () => {
               background: 0x000000,
               shoulderLines: 0xFFFFFF,
               brokenLines: 0xFFFFFF,
-              leftCars: [0xD856BF, 0x6750A2, 0xC247AC],
-              rightCars: [0x03B3C3, 0x0E5EA5, 0x324555],
+              leftCars: [0xff0000,0xffbcd9, 0xff006f],
+              rightCars: [0xc2f9ff, 0x0E5EA5, 0x324555],
               sticks: 0x03B3C3,
             }
           }}
@@ -107,11 +107,11 @@ const Ai = () => {
 
           {/* CTA Button */}
           <div className="text-center mt-12">
-            <button className="group relative inline-flex items-center gap-3 text-black   border border-white  px-8 py-4 rounded-full text-lg font-semibold bg-white transition-all duration-300 hover:transform hover:scale-105 shadow-lg">
+            <button className="group relative inline-flex items-center gap-3 text-black   border border-white  px-8 py-4 rounded-full text-lg font-semibold bg-white transition-all duration-300 hover:transform hover:scale-105 ">
               <span>Start Your Project</span>
-              <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
+              <span className="w-5 h-5 group-hover:translate-x-1 transition-transform">
+               <ArrowRight/>
+              </span>
             </button>
           </div>
         </div>
