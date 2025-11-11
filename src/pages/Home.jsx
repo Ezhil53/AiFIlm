@@ -18,7 +18,7 @@ const Home = () => {
             <AiShoot />
             <AiWork />
             <AiWhy />
-            <AiVision />
+            {/* <AiVision /> */}
             <AiFooter />
 
         </div>

@@ -90,7 +90,8 @@ const AiWhy = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="absolute inset-0 bg-white/20 backdrop-blur-[1px]" />
+
+                <div className="absolute inset-0 bg-linear-to-b from-black/30 via-black/50 to-black z-0" />
               <div className="relative z-10">
                 <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4 max-w-2xl">
                   Any style, any time—no limits.
